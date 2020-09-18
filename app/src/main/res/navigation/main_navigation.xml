@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/listFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.maxscrub.bw.sffoodtrucksoftheday.view.TruckListFragment"
+        android:label="TruckListFragment">
+        <action
+            android:id="@+id/action_toMapFrag"
+            app:destination="@id/mapFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.maxscrub.bw.sffoodtrucksoftheday.view.TruckMapFragment"
+        android:label="TruckMapFragment">
+        <action
+            android:id="@+id/action_toListFrag"
+            app:destination="@id/listFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+        <argument
+            android:name="applicant"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="latitude"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="longitude"
+            android:defaultValue=""
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>
