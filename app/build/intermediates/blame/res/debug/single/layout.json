@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/bw/Documents/Android/FoodTrucks/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_truck_list.xml",
+        "source": "/Users/bw/Documents/Android/FoodTrucks/app/src/main/res/layout/fragment_truck_list.xml"
+    },
+    {
+        "merged": "/Users/bw/Documents/Android/FoodTrucks/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/bw/Documents/Android/FoodTrucks/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/bw/Documents/Android/FoodTrucks/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/list_item_truck.xml",
+        "source": "/Users/bw/Documents/Android/FoodTrucks/app/src/main/res/layout/list_item_truck.xml"
+    }
+]

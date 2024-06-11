@@ -9,7 +9,7 @@ import retrofit2.http.Query
 
 interface TruckApi {
 
-    @Headers("X-App-Token: dANrEghQNAdGQQp4ad8AUtJUZ")
+    @Headers("X-App-Token: [REDACTED]")
     @GET("resource/jjew-r69b.json")
     fun getTrucks(@Query("dayorder") dayorder: Int) : Single<List<Truck>>
 
